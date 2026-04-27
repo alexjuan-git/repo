@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "Introdueixi X: " X
+
+if [[ ${X} -eq 5 ]]
+then
+    echo "has introduit un 5"
+    echo "enorabona"
+else
+    echo "no has introduit un 5"
+    echo "aixi no és"
+fi
