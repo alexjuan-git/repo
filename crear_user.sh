@@ -10,7 +10,7 @@ function usage(){
 #script per crear usuari
 
 #primer comprovam si som root
-if [[ ${UID} -ne 0]]
+if [[ ${UID} -ne 0 ]]
 then
     usage
 fi
